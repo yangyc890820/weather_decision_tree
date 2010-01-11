@@ -7,6 +7,6 @@ public class Leaf extends Node {
   
   public void print(int indent) {
     printSpaces(indent+2);
-    System.out.print(this.text);
+    System.out.println(this.text);
   }
 }
